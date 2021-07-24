@@ -56,6 +56,9 @@ print("branch merge junta todas as modificações.")
 print("branch rebase joga as modificações fora do master para o frente da fila do master.")
 print("git init # Comando para inicializar o repositório.")
 print("git push --set-upstream origin testing # Levar a saida para o branch chamado testing")
+print("git merge testing # Dentro do master leva tudo para o master.")
+print("git log --graph # mostra o gráfico da branch.")
+
 
 
 
