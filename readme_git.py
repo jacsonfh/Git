@@ -65,6 +65,8 @@ print("git stash para guardar alguma modificacao para aplicar depois WIP - work 
 print("git stash list mostra todas as minhas modif. guardadas. clear para limpar os stash)
 print("git stash apply para aplicar alguma alteracao. ")
 print("git config --global alias.s status #Criar alias no git. ")
+print("git tag -a 1.0.0 -m aspas Todos os comandos do Curso.aspas #cria a tag da versao")
+print("git push origin master --tags")
 
 
 
