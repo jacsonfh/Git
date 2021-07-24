@@ -42,7 +42,7 @@ print("Trabalhando com repositório remoto. ")
 print("Se logar no github.")
 print("Adicione a sua chave publica ssh nas configurações de segurança do gitHub.")
 print("git remote add origin git@github.com:jacsonfh/developer.git #conecte a sua pasta ao repositorio desejado.")
-print("git remote -v #Mostra se está conectado ao repositório."
+print("git remote -v #Mostra se está conectado ao repositório.")
 print("git push -u origin master")
 print("git clone ls nomeclone #Clonar repositório escolha uma nova pasta.")
 print("git switch master #Por exemplo para mudar para branch master.")
