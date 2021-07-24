@@ -13,8 +13,6 @@ __status__ = "Production"
 
 import os
 
-
-
 os.system('clear') or None
 
 print("\nEste é um estudo de comandos para usar no repositório git.\n")
@@ -42,10 +40,12 @@ print("Trabalhando com repositório remoto. ")
 print("Se logar no github.")
 print("Adicione a sua chave publica ssh nas configurações de segurança do gitHub.")
 print("git remote add origin git@github.com:jacsonfh/developer.git #conecte a sua pasta ao repositorio desejado.")
-print("git remote -v #Mostra se está conectado ao repositório."
-print("git push -u origin master")
+print("git remote -v #Mostra se está conectado ao repositório.")
+print("git push -u origin master #ver o que houve.")
 print("git clone ls nomeclone #Clonar repositório escolha uma nova pasta.")
 print("git switch master #Por exemplo para mudar para branch master.")
 print("É interessante ter uma pasta para cada branch.")
 print("git remote add origin git@github.com:jacsonfh/developer.git -m dev #Adicionar branch especifica.")
-print("teste ")
+print("Fork - Cria uma cópia de um projeto para você alterar e depois devolver.")
+print("Breanch - Possibilita manter uma versão master e diversas outras assim.")
+print("git checkout -b nome_novo_breach #Criando um breanch ")
