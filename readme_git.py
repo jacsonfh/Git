@@ -58,6 +58,7 @@ print("git init # Comando para inicializar o repositório.")
 print("git push --set-upstream origin testing # Levar a saida para o branch chamado testing")
 print("git merge testing # Dentro do master leva tudo para o master.")
 print("git log --graph # mostra o gráfico da branch.")
+print("teste com o master")
 
 
 
