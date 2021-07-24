@@ -52,4 +52,9 @@ print("git checkout -b nome_novo_breach #Criando um breanch -b cria um novo, sem
 print("git branch #Mostra os branchs que tem e qual você está.")
 print("git branch -D nome_branch_apagar #para apagar um branch especifico.")
 print("# Merge e Rebase = para juntar branch com as modificações.")
+print("branch merge junta todas as modificações.")
+print("branch rebase joga as modificações fora do master para o frente da fila do master.")
+print("git init # Comando para inicializar o repositório.")
+
+
 
