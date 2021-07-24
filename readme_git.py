@@ -60,6 +60,12 @@ print("git merge testing # Dentro do master leva tudo para o master.")
 print("git log --graph # mostra o gráfico da branch.")
 print("teste com o master")
 print("teste do testing.")
-print("teste de experiment.")
+print("criar o arquivo .gitignore ")
+print("git stash para guardar alguma modificacao para aplicar depois")
+print("git stash list mostra todas as minhas modif. guardadas.)
+print("git stash apply para aplicar alguma alteracao.")
+
+
+
 
 
