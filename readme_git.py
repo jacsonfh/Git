@@ -67,6 +67,9 @@ print("git stash apply para aplicar alguma alteracao. ")
 print("git config --global alias.s status #Criar alias no git. ")
 print("git tag -a 1.0.0 -m aspas Todos os comandos do Curso.aspas #cria a tag da versao")
 print("git push origin master --tags")
+print("git revert b56224d7814f594d9149f3f983ad751dee5331fe #para desfazer ou apagar um commit.")
+
+
 
 
 
