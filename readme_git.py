@@ -61,9 +61,10 @@ print("git log --graph # mostra o gráfico da branch.")
 print("teste com o master")
 print("teste do testing.")
 print("criar o arquivo .gitignore ")
-print("git stash para guardar alguma modificacao para aplicar depois")
-print("git stash list mostra todas as minhas modif. guardadas.)
-print("git stash apply para aplicar alguma alteracao.")
+print("git stash para guardar alguma modificacao para aplicar depois WIP - work in progress.")
+print("git stash list mostra todas as minhas modif. guardadas. clear para limpar os stash)
+print("git stash apply para aplicar alguma alteracao. ")
+print("git config --global alias.s status #Criar alias no git. ")
 
 
 
