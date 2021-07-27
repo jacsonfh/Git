@@ -14,7 +14,14 @@ git log --graph
 git show 71ef465e9c1d8069855efa0... #Dentro do git log tem  uma hash e pla hash é possível ver o que foadicionado.  
 git diff --name-only #Mostra somente o nome do arquivo que foi modificado.  
 git diff #mostra as diferencas antes de commit e para dar uma ultima lida e ver o que você fez.  
-git checkout nome_arquivo.py #Fazendo isso o git vai retornar o arquivo para antes da edição.  
+git checkout nome_arquivo.py #Fazendo isso o git vai retornar o arquivo para antes da edição. 
+Quanto você quer trocar de um repositorio para o outro você da um git checkout <nome do repositorio>  
+Se está em um repositorio e quer cirar uma ramificação a partir desse repositorio você também usa ele.  
+Deve-se manter sempre dois repositorios apenas (main, develop)  
+Sempre que começar um projeto novo vc entra no develop e cria um branch novo a partir dele.  
+git checkout develop    
+git checkout -b nova_branch    
+git checkout -b <nome_do_novo_repositorio>  
 git reset HEAD readme_git.py #Fazer o git tirar a última entrada do commit.   
 git commit -am #Adicionando todos os modif. mais a minha msg.  
 git reset --soft #Volta o Commit para o Stage.  
