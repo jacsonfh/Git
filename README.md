@@ -1,11 +1,11 @@
-# curso_git  
+# Alguns comandos de git  
 
 ## Este é um estudo de comandos para usar no repositório git.  
 
 git status #Para ver o status do branch no stage que é local.
 git add #Para adicionar arquivos no breach localmente.  
 git commit -m "Descrição do Commit"  
-git log #Mostra minhas entradas na branch"  
+git log #Mostra minhas entradas na branch.
 git log --decorate #log com mais informacoes.  
 git log --author=Jacson #Lista todas as entradas do autor Jacson.  
 git shortlog  
@@ -15,7 +15,7 @@ git show 71ef465e9c1d8069855efa0... #Dentro do git log tem  uma hash e pla hash 
 git diff --name-only #Mostra somente o nome do arquivo que foi modificado.  
 git diff #mostra as diferencas antes de commit e para dar uma ultima lida e ver o que você fez.  
 git checkout nome_arquivo.py #Fazendo isso o git vai retornar o arquivo para antes da edição.  
-git reset HEAD readme_git.py #Fazer o git tirar a última entrada do commit  
+git reset HEAD readme_git.py #Fazer o git tirar a última entrada do commit.   
 git commit -am #Adicionando todos os modif. mais a minha msg.  
 git reset --soft #Volta o Commit para o Stage.  
 git reset --mixed #Volta o Commit para o stage, e volta os arquivos para antes do stage  
@@ -37,18 +37,16 @@ Breanch - Possibilita manter uma versão master e diversas outras assim.
 git checkout -b nome_novo_breach #Criando um breanch -b cria um novo, sem ele muda para o branch em questão.   
 git branch #Mostra os branchs que tem e qual você está.  
 git branch -D nome_branch_apagar #para apagar um branch especifico.  
-# Merge e Rebase = para juntar branch com as modificações.  
+Merge e Rebase = para juntar branch com as modificações.  
 branch merge junta todas as modificações.  
 branch rebase joga as modificações fora do master para o frente da fila do master.  
 git init # Comando para inicializar o repositório.  
-git push --set-upstream origin testing # Levar a saida para o branch chamado testing  
+git push --set-upstream origin testing # Levar a saida para o branch chamado testing.   
 git merge testing # Dentro do master leva tudo para o master.  
 git log --graph # mostra o gráfico da branch.  
-teste com o master  
-teste do testing.  
 criar o arquivo .gitignore   
 git stash para guardar alguma modificacao para aplicar depois WIP - work in progress.  
-git stash list mostra todas as minhas modif. guardadas. clear para limpar os stas  
+git stash list mostra todas as minhas modif. guardadas. clear para limpar os statist.
 git stash apply para aplicar alguma alteracao.   
 git config --global alias.s status #Criar alias no git.  
 git tag -a 1.0.0 -m aspas Todos os comandos do Curso.aspas #cria a tag da versão.    
