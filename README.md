@@ -1,6 +1,6 @@
 # Alguns comandos de git  
 
-## Este é um estudo de comandos para usar no repositório git.  
+## Este é um estudo de comandos para usar no repositório github.  
 
 git status #Para ver o status do branch no stage que é local.
 git add #Para adicionar arquivos no breach localmente.  
