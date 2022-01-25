@@ -60,6 +60,25 @@ git tag -a 1.0.0 -m aspas Todos os comandos do Curso.aspas #cria a tag da versã
 git push origin master --tags  
 git revert b56224d7814f594d9149f3f983ad751dee5331fe #para reverter um commit, mas deixa no meu codigo.  
 git tag -d 1.0.0 e depois git push origin :1.0.0 tags ou branch para apagar.  
+git switch master #Por exemplo para mudar para branch master. (não se usa)
+Se usa git checkout master
+git checkout -b nome_novo_breach #Criando um breanch -b cria um novo, sem ele muda para o branch em questão.
+incorreto ele muda para o novo branch
+git checkout -b branch_novo (mude para o branch_novo a partir do branch que eu estou)
  
  Para uma melhor experiência do git em trabalhos com grandes equipes recomendo seguir o método do gitFlow.  
   - https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow
+ 
+ 
+ 
+ 
+ 
+ 
+O git prune é uma maneira de excluir dados acumulados que não estão em nenhum relacionamento com nada
+imagina tu desenvolvendo no teu branch e eu tb no mesmo branch então os passos que tu deve fazer antes de comitar é:
+git pull
+git fetch
+git prune
+"git add ."
+git commit -am "Mensagem"
+git push
