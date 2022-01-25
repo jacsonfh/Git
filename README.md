@@ -76,9 +76,21 @@ git checkout -b branch_novo (mude para o branch_novo a partir do branch que eu e
  
 O git prune é uma maneira de excluir dados acumulados que não estão em nenhum relacionamento com nada
 imagina tu desenvolvendo no teu branch e eu tb no mesmo branch então os passos que tu deve fazer antes de comitar é:
+ 
 git pull
+
 git fetch
+
 git prune
-"git add ."
+
+git add .
+ 
 git commit -am "Mensagem"
+
 git push
+
+E por fim para liberar espaço na tua maquina (afinal o branch já está no git) isso apaga o teu branch.
+ 
+git branch -d
+
+ 
